@@ -90,6 +90,7 @@
       <h2>تشكيلة شاملة لكل احتياجاتك</h2>
       <p>اختر من تشكيلتنا الواسعة من رفوف العرض والتخزين بأعلى المواصفات.</p>
     </div>
+    <div id="filters" class="filters"></div>
     <div class="grid products-grid" id="productsGrid"></div>
   </div>
 </section>
@@ -149,12 +150,28 @@
   </div>
 </div>
 
+
 <!-- WhatsApp Float -->
-<a href="#" id="waFloat" class="wa-float" aria-label="تواصل عبر واتساب">💬</a>
+<a href="#" id="waFloat" class="wa-float" aria-label="تواصل عبر واتساب"><svg class="icn" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-1.2 4.4L21 22l-6.3-1.6A8.5 8.5 0 1 1 21 11.5z"/></svg>
+</a>
 
 <!-- Toast -->
 <div class="toast" id="toast"></div>
 
+<!-- نافذة التفاصيل -->
+<div id="productModal" class="product-modal">
+
+  <div class="product-modal-box" id="productModalBox">
+
+    <button class="close-modal" onclick="closeModal()">×</button>
+
+    <div id="productModalContent"></div>
+
+  </div>
+
+</div>
+
 <script src="script.js"></script>
+
 </body>
 </html>
