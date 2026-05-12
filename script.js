@@ -35,13 +35,13 @@ const I = {
 };
 
 const PRODUCTS=[
-  {id:"heavy-rack-1",name:"رف مستودعات ثقيل أزرق وبرتقالي",shortDescription:"رف معدني ثقيل بحمولة 300 كجم لكل رف",description:"رف مستودعات احترافي بهيكل معدني مقاوم وطلاء كهروستاتيكي، مصمم لتحمل الأوزان الثقيلة في المستودعات والمخازن.",price:850,image:"images/product-heavy-rack-1.jpg",images:["images/product-heavy-rack-1.jpg","images/product-heavy-rack-2.jpg","images/product-heavy-rack-3.jpg"],category:"heavy",specs:{height:"200 سم",width:"200 سم",depth:"60 سم",material:"حديد مدلفن على البارد",capacity:"300 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مستودعات / مخازن",availability:"متوفر"}},
-  {id:"heavy-rack-2",name:"رف تخزين ثقيل 4 أدوار",shortDescription:"رف بأربعة مستويات بتصميم متين",description:"رف تخزين قوي بأربعة أدوار قابلة للتعديل، مناسب للمستودعات والمحلات والمخازن المتوسطة.",price:720,image:"images/product-heavy-rack-2.jpg",category:"heavy",specs:{height:"200 سم",width:"180 سم",depth:"60 سم",material:"حديد بطلاء كهروستاتيكي",capacity:"250 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مخازن وورش",availability:"متوفر"}},
-  {id:"heavy-rack-3",name:"رف مستودعات واسع 4 مستويات",shortDescription:"رف عريض بحمولة عالية وثبات ممتاز",description:"رف مستودعات عريض مثالي للمستودعات الكبيرة والمراكز اللوجستية.",price:950,image:"images/product-heavy-rack-3.jpg",category:"heavy",specs:{height:"220 سم",width:"240 سم",depth:"60 سم",material:"حديد سميك",capacity:"350 كجم لكل رف",colors:"أزرق داكن + برتقالي",usage:"مستودعات كبيرة",availability:"متوفر"}},
+  {id:"heavy-rack-1",name:"رف أبيض ( جداري - أملس )",gallery:["images/product-bins-1.jpg","images/product-cart-1.jpg","images/product-cart-2.jpg"],shortDescription:"رف معدني ثقيل بحمولة 300 كجم لكل رف",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:850,image:"images/1778546229148.png",images:["images/1778546322976.png","images/1778546229148.png","images/1778546383705.png"],category:"heavy",specs:{height:"200 سم",width:"200 سم",depth:"60 سم",material:"حديد مدلفن على البارد",capacity:"300 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مستودعات / مخازن",availability:"متوفر"}},
   {id:"supermarket-1",name:"رف سوبر ماركت بنهايات دائرية",shortDescription:"رف عرض احترافي بشريط أزرق أنيق",description:"رف سوبر ماركت بتصميم عصري ونهايات دائرية لعرض المنتجات بشكل جذاب وآمن.",price:1100,image:"images/product-supermarket-1.jpg",category:"supermarket",specs:{height:"180 سم",width:"300 سم",depth:"50 سم",material:"صاج مدلفن",capacity:"150 كجم لكل رف",colors:"أبيض + أزرق",usage:"سوبر ماركت / بقالات",availability:"متوفر"}},
   {id:"supermarket-2",name:"رف سوبر ماركت زاوية أحمر",shortDescription:"نظام رفوف ركني للسوبر ماركت",description:"نظام رفوف ركني متكامل مع شريط أحمر لتمييز المنتجات وزيادة جاذبية العرض.",price:1250,image:"images/product-supermarket-2.jpg",category:"supermarket",specs:{height:"200 سم",width:"250 سم",depth:"45 سم",material:"صاج مطلي كهروستاتيكي",capacity:"120 كجم لكل رف",colors:"أبيض + أحمر",usage:"سوبر ماركت",availability:"متوفر"}},
+  {id:"heavy-rack-2",name:"رف أسود ( جداري - أملس )",shortDescription:"رف بأربعة مستويات بتصميم متين",description:"رفوف تجمع بين الفخامة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تبرز جمال المنتجات المعروضة.",price:720,image:"images/1778546322976.png",images:["images/1778546229148.png","images/1778546322976.png","images/1778546383705.png"],category:"heavy",specs:{height:"200 سم",width:"180 سم",depth:"60 سم",material:"حديد بطلاء كهروستاتيكي",capacity:"250 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مخازن وورش",availability:"متوفر"}},
   {id:"supermarket-3",name:"رفوف سوبر ماركت سوداء",shortDescription:"نظام جوندولا أسود بشريط أخضر",description:"نظام رفوف جوندولا متكامل بتصميم أنيق أسود مع إضاءة شريطية خضراء.",price:1450,image:"images/product-supermarket-3.jpg",category:"supermarket",specs:{height:"210 سم",width:"120 سم",depth:"50 سم",material:"صاج مطلي",capacity:"150 كجم لكل رف",colors:"أسود + أخضر",usage:"سوبر ماركت / محلات",availability:"متوفر"}},
   {id:"light-shelf-1",name:"رف تخزين خفيف فضي",shortDescription:"رف منزلي خفيف ومرن",description:"رف تخزين خفيف بلون فضي عملي مناسب للمنازل والمكاتب والمحلات.",price:380,image:"images/product-light-shelf-1.jpg",category:"storage",specs:{height:"180 سم",width:"150 سم",depth:"50 سم",material:"صاج خفيف",capacity:"80 كجم لكل رف",colors:"فضي",usage:"منازل / مكاتب",availability:"متوفر"}},
+  {id:"heavy-rack-3",name:"رف رصاصي ( جداري - أملس )",shortDescription:"رف عريض بحمولة عالية وثبات ممتاز",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:950,image:"images/1778546383705.png",images:["images/1778546229148.png","images/1778546383705.png","images/1778546322976.png"],category:"heavy",specs:{height:"220 سم",width:"240 سم",depth:"60 سم",material:"حديد سميك",capacity:"350 كجم لكل رف",colors:"أزرق داكن + برتقالي",usage:"مستودعات كبيرة",availability:"متوفر"}},
   {id:"folding-shelf-1",name:"رف قابل للطي أسود بعجلات",shortDescription:"رف عملي قابل للطي ومتنقل",description:"رف عملي قابل للطي بسهولة ومزوّد بعجلات للنقل، مثالي للمنزل والمطبخ.",price:290,image:"images/product-folding-shelf-1.jpg",category:"storage",specs:{height:"150 سم",width:"70 سم",depth:"35 سم",material:"حديد مطلي",capacity:"40 كجم لكل رف",colors:"أسود",usage:"منزلي",availability:"متوفر"}},
   {id:"folding-shelf-2",name:"رف قابل للطي أبيض بعجلات",shortDescription:"رف منزلي عملي بلون أبيض أنيق",description:"رف عصري قابل للطي بلون أبيض ناعم، يجمع بين الأناقة والعملية.",price:310,image:"images/product-folding-shelf-2.jpg",category:"storage",specs:{height:"150 سم",width:"70 سم",depth:"35 سم",material:"حديد مطلي",capacity:"40 كجم لكل رف",colors:"أبيض",usage:"منزلي",availability:"متوفر"}},
  {id:"wire-basket-1",name:"كروم سلال شبكية بعجلات",shortDescription:"كروم احترافي بسلال شبكية متعددة",description:"كروم سلال شبكية متعدد الطبقات بعجلات، مناسب لعرض المنتجات في السوبر ماركت والمحلات.",price:420,image:"images/product-wire-basket-1.jpg",category:"chrome",specs:{height:"120 سم",width:"60 سم",depth:"40 سم",material:"أسلاك كروم",capacity:"50 كجم",colors:"كروم/أبيض",usage:"عرض المنتجات",availability:"متوفر"}},
@@ -179,7 +179,8 @@ function openModal(id){
     const p = PRODUCTS.find(x => x.id === id);
 
     if(!p) return;
-    currentImages = p.images;currentIndex = 1;
+    currentImages = p.images && p.images.length?p.images:[p.image];
+    const singleImage =currentImages.length ===1; 
 
     const specs = [
         ["الارتفاع", p.specs.height],
@@ -200,29 +201,45 @@ function openModal(id){
 
 <div class="product-slider">
 
-    <button class="slider-btn left"
-    onclick="changeSlide(-1)">
-    ❯
-    </button>
-    
-    <div class="slider-images">
-    
+  ${!singleImage ? `
+
+  <button class="slider-btn left"
+  onclick="changeSlide(-1)">
+  ❮
+  </button>
+
+  ` : ""}
+
+  <div class="slider-images">
+
+    ${!singleImage ? `
+
     <img class="side-img"
-    src="${p.images[0]}">
-    
+    src="${currentImages[0]}">
+
+    ` : ""}
+
     <img class="main-img"
     id="mainSliderImage"
-    src="${p.images[1]}">
-    
+    src="${currentImages[1] || currentImages[0]}">
+
+    ${!singleImage ? `
+
     <img class="side-img"
-    src="${p.images[2]}">
-    
-    </div>
-    
-    <button class="slider-btn right"
-    onclick="changeSlide(1)">
-    ❮
-    </button>
+    src="${currentImages[2] || currentImages[0]}">
+
+    ` : ""}
+
+  </div>
+
+  ${!singleImage ? `
+
+  <button class="slider-btn right"
+  onclick="changeSlide(1)">
+  ❯
+  </button>
+
+  ` : ""}
 
 </div>
 
@@ -254,21 +271,49 @@ function openModal(id){
 
                 </div>
 
-                <div class="modal-buttons">
 
-                    <button class="btn btn-primary"
-                    onclick="addToCart('${p.id}')">
-                    أضف للسلة
-                    </button>
+                ${p.gallery ? `
+                
+                
+                <div class="real-gallery">
+                
+                <h3>
+                صور المنتج بعد التركيب
+                </h3>
+                
+                <div class="real-gallery-grid">
+                
+                ${p.gallery.map(img => `
+                  
+                  <img src="${img}">
+                  
+                  `).join("")}
+                  
+                  </div>
+                  
+                  ` : ""}
+                  
+                  <div class="modal-buttons">
+  
+  
+  
+  
+                      <button class="btn btn-primary"
+                      onclick="addToCart('${p.id}')">
+                      أضف للسلة
+                      </button>
+  
+                      <a
+                      class="btn btn-accent"
+                      target="_blank"
+                      href="https://wa.me/${WHATSAPP_NUMBER}">
+                      طلب عبر واتساب
+                      </a>
+  
+                  </div>
 
-                    <a
-                    class="btn btn-accent"
-                    target="_blank"
-                    href="https://wa.me/${WHATSAPP_NUMBER}">
-                    طلب عبر واتساب
-                    </a>
+</div>
 
-                </div>
 
             </div>
 
@@ -338,14 +383,24 @@ function changeSlide(direction){
     % currentImages.length
     ];
 
+    const mainImage =
+document.getElementById("mainSliderImage");
+
+mainImage.style.opacity = "0";
+
+setTimeout(()=>{
+
     document.querySelectorAll(".side-img")[0]
     .src = left;
 
-    document.getElementById("mainSliderImage")
-    .src = center;
+    mainImage.src = center;
 
     document.querySelectorAll(".side-img")[1]
     .src = right;
+
+    mainImage.style.opacity = "1";
+
+},200);
 }
 
 
