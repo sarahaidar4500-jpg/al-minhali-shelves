@@ -449,8 +449,54 @@ setTimeout(()=>{
 }
 
 function toggleMenu(){
-  document.querySelector(".nav-links").classList.toggle("show");
+
+const nav =
+document.querySelector(".nav-links");
+
+const btn =
+document.querySelector(".menu-toggle");
+
+nav.classList.toggle("show");
+
+btn.classList.toggle("active");
+
+if(nav.classList.contains("show")){
+
+document.querySelector(".menu-icon")
+.textContent = "×";
+
+}else{
+
+document.querySelector(".menu-icon")
+.textContent = "☰";
+
 }
+
+}
+document.addEventListener("click",function(e){
+
+const nav =
+document.querySelector(".nav-links");
+
+const btn =
+document.querySelector(".menu-toggle");
+
+if(
+!nav.contains(e.target)
+&&
+!btn.contains(e.target)
+){
+
+nav.classList.remove("show");
+
+btn.classList.remove("active");
+
+document.querySelector(".menu-icon")
+.textContent = "☰";
+
+}
+
+});
 
 // السنة
 document.getElementById("year").textContent = new Date().getFullYear();
