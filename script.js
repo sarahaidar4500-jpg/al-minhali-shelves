@@ -35,13 +35,13 @@ const I = {
 };
 
 const PRODUCTS=[
-  {id:"heavy-rack-1",name:"رف أبيض ( جداري - أملس )",gallery:["images/product-bins-1.jpg","images/product-cart-1.jpg","images/product-cart-2.jpg"],shortDescription:"رف معدني ثقيل بحمولة 300 كجم لكل رف",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:850,image:"images/1778546229148.png",images:["images/1778546322976.png","images/1778546229148.png","images/1778546383705.png"],category:"heavy",specs:{height:"200 سم",width:"200 سم",depth:"60 سم",material:"حديد مدلفن على البارد",capacity:"300 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مستودعات / مخازن",availability:"متوفر"}},
-  {id:"supermarket-1",name:"رف سوبر ماركت بنهايات دائرية",shortDescription:"رف عرض احترافي بشريط أزرق أنيق",description:"رف سوبر ماركت بتصميم عصري ونهايات دائرية لعرض المنتجات بشكل جذاب وآمن.",price:1100,image:"images/product-supermarket-1.jpg",category:"supermarket",specs:{height:"180 سم",width:"300 سم",depth:"50 سم",material:"صاج مدلفن",capacity:"150 كجم لكل رف",colors:"أبيض + أزرق",usage:"سوبر ماركت / بقالات",availability:"متوفر"}},
-  {id:"supermarket-2",name:"رف سوبر ماركت زاوية أحمر",shortDescription:"نظام رفوف ركني للسوبر ماركت",description:"نظام رفوف ركني متكامل مع شريط أحمر لتمييز المنتجات وزيادة جاذبية العرض.",price:1250,image:"images/product-supermarket-2.jpg",category:"supermarket",specs:{height:"200 سم",width:"250 سم",depth:"45 سم",material:"صاج مطلي كهروستاتيكي",capacity:"120 كجم لكل رف",colors:"أبيض + أحمر",usage:"سوبر ماركت",availability:"متوفر"}},
-  {id:"heavy-rack-2",name:"رف أسود ( جداري - أملس )",shortDescription:"رف بأربعة مستويات بتصميم متين",description:"رفوف تجمع بين الفخامة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تبرز جمال المنتجات المعروضة.",price:720,image:"images/1778546322976.png",images:["images/1778546229148.png","images/1778546322976.png","images/1778546383705.png"],category:"heavy",specs:{height:"200 سم",width:"180 سم",depth:"60 سم",material:"حديد بطلاء كهروستاتيكي",capacity:"250 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مخازن وورش",availability:"متوفر"}},
-  {id:"supermarket-3",name:"رفوف سوبر ماركت سوداء",shortDescription:"نظام جوندولا أسود بشريط أخضر",description:"نظام رفوف جوندولا متكامل بتصميم أنيق أسود مع إضاءة شريطية خضراء.",price:1450,image:"images/product-supermarket-3.jpg",category:"supermarket",specs:{height:"210 سم",width:"120 سم",depth:"50 سم",material:"صاج مطلي",capacity:"150 كجم لكل رف",colors:"أسود + أخضر",usage:"سوبر ماركت / محلات",availability:"متوفر"}},
-  {id:"light-shelf-1",name:"رف تخزين خفيف فضي",shortDescription:"رف منزلي خفيف ومرن",description:"رف تخزين خفيف بلون فضي عملي مناسب للمنازل والمكاتب والمحلات.",price:380,image:"images/product-light-shelf-1.jpg",category:"storage",specs:{height:"180 سم",width:"150 سم",depth:"50 سم",material:"صاج خفيف",capacity:"80 كجم لكل رف",colors:"فضي",usage:"منازل / مكاتب",availability:"متوفر"}},
+  {id:"heavy-rack-1",name:"رف أبيض ( جداري - أملس )",gallery:["images/1778642902980.png","images/1778642958528.png","images/1778643002638.png"],shortDescription:"رف معدني ثقيل بحمولة 300 كجم لكل رف",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:850,image:"images/1778546229148.png",images:["images/1778546322976.png","images/1778546229148.png","images/1778546383705.png"],category:"heavy",specs:{height:"200 سم",width:"200 سم",depth:"60 سم",material:"حديد مدلفن على البارد",capacity:"300 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مستودعات / مخازن",availability:"متوفر"}},
+  {id:"heavy-rack-2",name:"رف أسود ( جداري - أملس )",gallery:["images/1778643241307.png","images/1778643180414.png","images/1778643294641.png"],shortDescription:"رف بأربعة مستويات بتصميم متين",description:"رفوف تجمع بين الفخامة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تبرز جمال المنتجات المعروضة.",price:720,image:"images/1778546322976.png",images:["images/1778546229148.png","images/1778546322976.png","images/1778546383705.png"],category:"heavy",specs:{height:"200 سم",width:"180 سم",depth:"60 سم",material:"حديد بطلاء كهروستاتيكي",capacity:"250 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مخازن وورش",availability:"متوفر"}},
   {id:"heavy-rack-3",name:"رف رصاصي ( جداري - أملس )",shortDescription:"رف عريض بحمولة عالية وثبات ممتاز",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:950,image:"images/1778546383705.png",images:["images/1778546229148.png","images/1778546383705.png","images/1778546322976.png"],category:"heavy",specs:{height:"220 سم",width:"240 سم",depth:"60 سم",material:"حديد سميك",capacity:"350 كجم لكل رف",colors:"أزرق داكن + برتقالي",usage:"مستودعات كبيرة",availability:"متوفر"}},
+  {id:"supermarket-1",name:"رف سوبر ماركت بنهايات دائرية",shortDescription:"رف عرض احترافي بشريط أزرق أنيق",description:"رف سوبر ماركت بتصميم عصري ونهايات دائرية لعرض المنتجات بشكل جذاب وآمن.",price:1100,image:"images/1778643515823.png",images:["images/1778644689987.png","images/1778643515823.png","images/1778644945066.png"],category:"supermarket",specs:{height:"180 سم",width:"300 سم",depth:"50 سم",material:"صاج مدلفن",capacity:"150 كجم لكل رف",colors:"أبيض + أزرق",usage:"سوبر ماركت / بقالات",availability:"متوفر"}},
+  {id:"supermarket-2",name:"رف سوبر ماركت زاوية أحمر",shortDescription:"نظام رفوف ركني للسوبر ماركت",description:"نظام رفوف ركني متكامل مع شريط أحمر لتمييز المنتجات وزيادة جاذبية العرض.",price:1250,image:"images/1778644689987.png",images:["images/1778643515823.png","images/1778644689987.png","images/1778644945066.png"],category:"supermarket",specs:{height:"200 سم",width:"250 سم",depth:"45 سم",material:"صاج مطلي كهروستاتيكي",capacity:"120 كجم لكل رف",colors:"أبيض + أحمر",usage:"سوبر ماركت",availability:"متوفر"}},
+  {id:"supermarket-3",name:"رفوف سوبر ماركت سوداء",shortDescription:"نظام جوندولا أسود بشريط أخضر",description:"نظام رفوف جوندولا متكامل بتصميم أنيق أسود مع إضاءة شريطية خضراء.",price:1450,image:"images/1778644945066.png",images:["images/1778644689987.png","images/1778644945066.png","images/1778643515823.png"],category:"supermarket",specs:{height:"210 سم",width:"120 سم",depth:"50 سم",material:"صاج مطلي",capacity:"150 كجم لكل رف",colors:"أسود + أخضر",usage:"سوبر ماركت / محلات",availability:"متوفر"}},
+  {id:"light-shelf-1",name:"رف تخزين خفيف فضي",gallery:"images/1778645112579.png",shortDescription:"رف منزلي خفيف ومرن",description:"رف تخزين خفيف بلون فضي عملي مناسب للمنازل والمكاتب والمحلات.",price:380,image:"images/1778645040991.png",category:"storage",specs:{height:"180 سم",width:"150 سم",depth:"50 سم",material:"صاج خفيف",capacity:"80 كجم لكل رف",colors:"فضي",usage:"منازل / مكاتب",availability:"متوفر"}},
   {id:"folding-shelf-1",name:"رف قابل للطي أسود بعجلات",shortDescription:"رف عملي قابل للطي ومتنقل",description:"رف عملي قابل للطي بسهولة ومزوّد بعجلات للنقل، مثالي للمنزل والمطبخ.",price:290,image:"images/product-folding-shelf-1.jpg",category:"storage",specs:{height:"150 سم",width:"70 سم",depth:"35 سم",material:"حديد مطلي",capacity:"40 كجم لكل رف",colors:"أسود",usage:"منزلي",availability:"متوفر"}},
   {id:"folding-shelf-2",name:"رف قابل للطي أبيض بعجلات",shortDescription:"رف منزلي عملي بلون أبيض أنيق",description:"رف عصري قابل للطي بلون أبيض ناعم، يجمع بين الأناقة والعملية.",price:310,image:"images/product-folding-shelf-2.jpg",category:"storage",specs:{height:"150 سم",width:"70 سم",depth:"35 سم",material:"حديد مطلي",capacity:"40 كجم لكل رف",colors:"أبيض",usage:"منزلي",availability:"متوفر"}},
  {id:"wire-basket-1",name:"كروم سلال شبكية بعجلات",shortDescription:"كروم احترافي بسلال شبكية متعددة",description:"كروم سلال شبكية متعدد الطبقات بعجلات، مناسب لعرض المنتجات في السوبر ماركت والمحلات.",price:420,image:"images/product-wire-basket-1.jpg",category:"chrome",specs:{height:"120 سم",width:"60 سم",depth:"40 سم",material:"أسلاك كروم",capacity:"50 كجم",colors:"كروم/أبيض",usage:"عرض المنتجات",availability:"متوفر"}},
@@ -50,13 +50,75 @@ const PRODUCTS=[
  {id:"bins-1",name:"نظام صناديق تخزين زرقاء",shortDescription:"حائط كامل من صناديق التخزين البلاستيكية",description:"نظام تخزين متكامل بصناديق بلاستيكية زرقاء على هيكل حديدي، مثالي لورش العمل والمستودعات.",price:1850,image:"images/product-bins-1.jpg",category:"storage",specs:{height:"200 سم",width:"300 سم",depth:"30 سم",material:"بلاستيك + حديد",capacity:"متعدد الأقسام",colors:"أزرق",usage:"ورش / مستودعات",availability:"متوفر"}},
  {id:"display-table-1",name:"طاولة عرض خضار خضراء",shortDescription:"طاولة عرض بصناديق بلاستيكية للخضار والفواكه",description:"طاولة عرض احترافية للخضار والفواكه بهيكل معدني وصناديق بلاستيكية.",price:540,image:"images/product-display-table-1.jpg",category:"supermarket",specs:{height:"85 سم",width:"120 سم",depth:"100 سم",material:"حديد + بلاستيك",capacity:"100 كجم",colors:"أخضر",usage:"خضار وفواكه",availability:"متوفر"}},
  {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
+ {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
+ {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
+ {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
+ {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
+ {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
+ {id:"cashier-1",name:"كاونتر كاشير سوبر ماركت",shortDescription:"كاونتر دفع احترافي بحواف مطاطية",description:"كاونتر كاشير عصري بتصميم متين وحواف مطاطية حامية مناسب للسوبر ماركت.",price:1650,image:"images/product-cashier-1.jpg",category:"supermarket",specs:{height:"90 سم",width:"180 سم",depth:"60 سم",material:"حديد + بلاستيك",capacity:"—",colors:"رمادي + أبيض",usage:"سوبر ماركت",availability:"متوفر"}},
 ];
 
 let activeCat="all";
 function renderProducts(){
-  const grid=document.getElementById("productsGrid"); if(!grid) return;
-  const items=activeCat==="all"?PRODUCTS:PRODUCTS.filter(p=>p.category===activeCat);
-  grid.innerHTML=items.map(productCard).join("");
+
+  const grid = document.getElementById("productsGrid");
+
+  if(!grid) return;
+
+  const items = activeCat === "all"
+
+  ? PRODUCTS
+
+  : PRODUCTS.filter(
+      p => p.category === activeCat
+    );
+
+  grid.innerHTML = items.map(p=>`
+
+    <article class="card">
+
+      <div class="card-img">
+        <img src="${p.image}" alt="${p.name}" loading="lazy" />
+      </div>
+
+      <div class="card-body">
+
+        <h3>${p.name}</h3>
+
+        <p>${p.description}</p>
+
+        <div class="card-foot">
+
+          <div class="price">
+            ${p.price.toLocaleString('ar-SA')}
+            <small>ر.س</small>
+          </div>
+
+          <button
+          class="btn btn-primary"
+          onclick="addToCart('${p.id}')">
+
+          أضف للسلة
+
+          </button>
+
+          <button
+          class="btn-details"
+          onclick="openModal('${p.id}')">
+
+          ${I.eye}
+          تفاصيل
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </article>
+
+  `).join("");
+
 }
 function renderFilters(){
   const f=document.getElementById("filters"); if(!f) return;
@@ -87,24 +149,7 @@ function removeItem(id){ saveCart(getCart().filter(i=>i.id!==id)); }
 function clearCart(){ saveCart([]); }
 
 // ====== العرض ======
-function renderProducts(){
-  const grid = document.getElementById("productsGrid");
-  grid.innerHTML = PRODUCTS.map(p=>`
-    <article class="card">
-    <div class="card-img"><img src="${p.image}" alt="${p.name}" loading="lazy" /></div>
-    <div class="card-body">
-    <h3>${p.name}</h3>
-    <p>${p.description}</p>
-    <div class="card-foot">
-    <div class="price">${p.price.toLocaleString('ar-SA')} <small>ر.س</small></div>
-    <button class="btn btn-primary" onclick="addToCart('${p.id}')">أضف للسلة</button>
-    <button class="btn-details" onclick="openModal('${p.id}')">${I.eye} تفاصيل</button>
-    
-    </div>
-    </div>
-    </article>
-    `).join("");
-  }
+
   
   function renderCart(){
     const cart = getCart();
@@ -403,6 +448,9 @@ setTimeout(()=>{
 },200);
 }
 
+function toggleMenu(){
+  document.querySelector(".nav-links").classList.toggle("show");
+}
 
 // السنة
 document.getElementById("year").textContent = new Date().getFullYear();
