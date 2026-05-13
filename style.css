@@ -28,14 +28,14 @@ a{color:inherit;text-decoration:none}
 .logo{display:flex;align-items:center;gap:.6rem;font-weight:800;color:var(--primary)}
 .logo-mark{display:inline-flex;align-items:center;justify-content:center;width:auto;height:60px;color:#fff;border-radius:8px;object-fit: contain;}
 .menu-toggle{display: none;color: #0B1F55;cursor: pointer;z-index: 99;}
-.logo-text{font-weight: bold;font-size: 20px;color: #1a2d5c;}
-.nav-links{display:none;gap:3rem}
-.nav-links a{color:var(--primary);font-weight:600;transition:color .2s}
+.logo-text{display: block;}
+.nav-links{display:flex;gap:3rem}
+.nav-links a{color:var(--primary);font-weight:500;transition:color .2s}
 .nav-links a:hover{color:#FF7A00}
 .cart-btn{position:relative;background:#FF7A00;color:#fff;border:none;padding:.55rem .9rem;border-radius:10px;font-family:inherit;font-size:.95rem;cursor:pointer;transition:transform .2s}
 .cart-btn:hover{transform:translateY(-2px)}
 .cart-count{display:inline-block;background:#ffffff;color:#FF7A00;border-radius:999px;padding:0 .45rem;font-size:.75rem;margin-inline-start:.25rem;min-width:1.3rem;text-align:center}
-@media(min-width:768px){.nav-links{display:flex}.logo-text{display:none}.menu-toggle{display: flex;align-items: center;justify-content: center;}}
+@media(max-width:768px){.nav-links{display:none}.menu-toggle{display: flex;align-items: center;justify-content: center;}.logo-text{display:none}}
 
 /* Hero */
 .hero{position:relative;overflow:hidden;color:#fff;}
@@ -80,14 +80,14 @@ a{color:inherit;text-decoration:none}
     background-position: 300% 50%;
   }
 }
-.hero-content h1{font-size:1rem;font-weight:700;margin-top:1.2rem;line-height:1.15}
+.hero-content h1{font-size:3.5rem;font-weight:700;margin-top:1.2rem;line-height:1.15}
 .hero-content p{margin-top:1rem;font-size:1.05rem;opacity:.9}
 .hero-actions{margin-top:1.8rem;display:flex;flex-wrap:wrap;gap:.7rem}
 .stats{margin-top:2.5rem;display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;max-width:480px}
 .stat{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);border-radius:10px;padding:.8rem;text-align:center;backdrop-filter:blur(4px)}
 .stat-n{font-size:1.4rem;font-weight:800}
 .stat-l{font-size:.75rem;opacity:.8;margin-top:.2rem}
-@media(min-width:768px){.hero-content{padding:9rem 1rem 10rem}.hero-content h1{font-size:clamp(36px,7vw,58px);}}
+@media(max-width:768px){.hero-content{padding:9rem 1rem 10rem}.hero-content h1{font-size:clamp(38px,7vw,52px);line-height: 1.2;}}
 
 /* Buttons */
 .btn{display:inline-block;padding:.75rem 1.4rem;border-radius:14px;font-family:inherit;font-weight:bold;font-size:.95rem;cursor:pointer;border:none;transition:transform .3s ease,background .2s,box-shadow .2s;text-align:center}
