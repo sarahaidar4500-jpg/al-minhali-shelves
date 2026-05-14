@@ -30,8 +30,9 @@
       <a href="#about">من نحن</a>
       <a href="#contact">تواصل</a>
     </nav>
-    <button class="cart-btn" id="openCart" aria-label="فتح السلة">
-      🛒 <span class="cart-count" id="cartCount">0</span>
+    <button class="cart-btn" id="openCart" aria-label="فتح السلة"><div class="cart-text">سلة التسوق</div>
+      <span class="cart-count" id="cartCount">0</span>
+      <svg class="icn" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
     </button>
   </div>
 </header>
@@ -72,7 +73,7 @@
 
     <div class="feature-box">
         <h3>جودة عالية</h3>
-        <p>رفوف قوية وعملية بتصميم احترافي يناسب جميع الأنشطة التجارية.</p>
+        <p>رفوف قوية وعملية بتصميم احترافي تناسب جميع الأنشطة التجارية.</p>
     </div>
 
     <div class="feature-box">
@@ -105,15 +106,19 @@
   <div class="container about-grid">
     <div>
       <span class="eyebrow">من نحن</span>
-      <h2>شريكك الموثوق في تجهيز السوبرماركت</h2>
-      <p>متخصصون منذ عام 2005 في تصنيع وتوريد رفوف السوبرماركت والمحلات التجارية. نجمع بين التصميم الحديث والمتانة الصناعية لنقدم حلولاً تدوم طويلاً وتُبرز منتجاتك بأفضل صورة.</p>
+      <h2>مؤسسة المنهالي للرفوف</h2>
+      <p>نحن مؤسسة متخصصة في توفير أفضل حلول الرفوف وأنظمة التخزين للسوبر ماركت والمستودعات والمحلات التجارية. نجمع بين التصميم الحديث والمتانة الصناعية لنقدم حلولاً تدوم طويلاً وتُبرز منتجاتك بأفضل صورة.</p>
       <p>نخدم أكثر من 500 عميل من سلاسل التجزئة الكبرى إلى المتاجر المستقلة، ونلتزم بمعايير الجودة العالمية في كل مرحلة من الإنتاج.</p>
     </div>
     <div class="features-grid">
-      <div class="feature"><div class="feat-icon">🛡️</div><h3>جودة معتمدة</h3><p>معدن صلب مقاوم للصدأ مع طلاء إلكتروستاتيكي.</p></div>
-      <div class="feature"><div class="feat-icon">🔧</div><h3>تركيب احترافي</h3><p>فريق فني مدرب لتركيب سريع ودقيق في الموقع.</p></div>
-      <div class="feature"><div class="feat-icon">🚚</div><h3>توصيل لكل المدن</h3><p>شبكة توصيل تغطي جميع مناطق المملكة.</p></div>
-      <div class="feature"><div class="feat-icon">🏆</div><h3>ضمان شامل</h3><p>ضمان حتى 5 سنوات على الهيكل والتشطيب.</p></div>
+      <div class="feature"><div class="feat-icon"> <svg class="icn" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+</div><h3>جودة مضمونة</h3><p>خامات معدنية ممتازة</p></div>
+      <div class="feature"><div class="feat-icon"><svg class="icn" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-2.5z"/></svg>
+</div><h3>تركيب احترافي</h3><p>فريق فني مدرب لتركيب سريع ودقيق في الموقع.</p></div>
+      <div class="feature"><div class="feat-icon"> <svg class="icn" viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+</div><h3>توصيل لكل المدن</h3><p>شبكة توصيل تغطي جميع مناطق المملكة.</p></div>
+      <div class="feature"><div class="feat-icon"> <svg class="icn" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.2 13.7 7 22 12 19 17 22 15.8 13.7"/></svg>
+</div><h3>ضمان شامل</h3><p>ضمان حتى 5 سنوات على الهيكل والتشطيب.</p></div>
     </div>
   </div>
 </section>
@@ -127,9 +132,11 @@
       <p>تواصل معنا للحصول على استشارة مجانية وعرض سعر مخصص لمشروعك.</p>
     </div>
     <div class="grid contact-grid">
-      <div class="contact-card"><div class="ci">📞</div><h3>اتصل بنا</h3><p>+966 50 000 0000</p></div>
+      <div class="contact-card"><div class="ci"><svg class="icn" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6A2 2 0 0 1 22 16.9z"/></svg>
+</div><h3>اتصل بنا</h3><p>+966 50 000 0000</p></div>
       <div class="contact-card"><div class="ci">✉️</div><h3>البريد الإلكتروني</h3><p>info@shelves.sa</p></div>
-      <div class="contact-card"><div class="ci">📍</div><h3>العنوان</h3><p>الرياض - حي الصناعية</p></div>
+      <div class="contact-card"><div class="ci"> <svg class="icn" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+</div><h3>العنوان</h3><p>الرياض - حي الصناعية</p></div>
       <div class="contact-card"><div class="ci">🕐</div><h3>ساعات العمل</h3><p>السبت - الخميس · 8 ص - 6 م</p></div>
     </div>
   </div>
