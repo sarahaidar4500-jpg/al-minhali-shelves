@@ -64,7 +64,7 @@ transition:.3s;
   display:flex;
   align-items:center;
   justify-content:center;
-  gap:8px;
+  gap:6px;
 
   background:#FF7A00;
   color:#fff;
@@ -111,91 +111,87 @@ font-weight:bold;
 box-shadow:0 2px 8px rgba(0,0,0,.15);
 }@media(max-width:768px){
 
-    .nav-inner{
-    
-    display:flex;
-    
-    align-items:center;
-    
-    justify-content:space-between;
-    }
-    
-    .logo{
-    
-    margin-left:auto;
-    }
-    
-    
-    .cart-btn{border-radius: 999px;margin-right: auto;order: 0;}
-    
-    .nav-links{
-        
-        position:absolute;
-        
-        top:64px;
-        
-        left:0;
-        
-        width:100%;
-        
-        background:white;
 
-        display:flex;
-        
-        flex-direction:column;
-        
-        align-items:center;
-        
-        justify-content:center;
-        
-        gap:25px;
-        
-        padding:0;
-        
-        max-height:0;
-        
-        overflow:hidden;
-        
-        transition:max-height .4s ease,padding .4s ease;
-        
-        box-shadow:0 10px 30px rgba(0,0,0,.08);
-    }
-    
-    .nav-links.show{
-        
-        max-height:300px;
-        
-        padding:25px 0;
-    }
-    
-    
-    
-    .menu-toggle{
-        
-        display:flex;
-        
-        width:45px;
-        height:45px;
-        
-        background:#FF7A00;
-        
-        color:white;
-        
-        border-radius:50%;
-        
-        align-items:center;
-        justify-content:center;
-        
-        font-size:28px;
-        
-        flex-shrink:0;
-        margin-right: auto;
-        order: -1;
-    }
-    
-    .cart-text{
-    display:none;
-    }
+.cart-text{
+display:none;
+}
+
+.cart-btn{border-radius: 999px;}
+
+.nav-links{
+
+position:absolute;
+
+top:64px;
+
+left:0;
+
+width:100%;
+
+background:white;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+justify-content:center;
+
+gap:25px;
+
+padding:0;
+
+max-height:0;
+
+overflow:hidden;
+
+transition:max-height .4s ease,padding .4s ease;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.nav-links.show{
+
+max-height:300px;
+
+padding:25px 0;
+}
+
+.nav-inner{
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+}
+
+.logo{
+
+margin-right:auto;
+}
+
+.menu-toggle{
+
+display:flex;
+
+width:45px;
+height:45px;
+
+background:#FF7A00;
+
+color:white;
+
+border-radius:50%;
+
+align-items:center;
+justify-content:center;
+
+font-size:28px;
+
+flex-shrink:0;
+}
 
 .cart-btn{
 
