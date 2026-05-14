@@ -109,6 +109,15 @@ font-size:11px;
 font-weight:bold;
 
 box-shadow:0 2px 8px rgba(0,0,0,.15);
+
+.menu-toggle,
+.cart-btn{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  padding:0;
+}
+
 }@media(max-width:768px){
 
     .nav-inner{
@@ -122,12 +131,11 @@ box-shadow:0 2px 8px rgba(0,0,0,.15);
     
     .logo{
     
-    margin-left:auto;
-    order: 3;
+    margin-right:auto;
     }
     
     
-    .cart-btn{border-radius: 999px;border: 1;}
+    .cart-btn{margin-right: 10px; border-radius: 999px;border: 1;}
     
     .nav-links{
         
@@ -199,7 +207,7 @@ box-shadow:0 2px 8px rgba(0,0,0,.15);
 
 .cart-btn{
 
-margin-left:10px;
+margin-right:10px;
 }
 
 .logo-text{
