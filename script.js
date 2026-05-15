@@ -103,9 +103,11 @@ function renderProducts(){
         <div class="card-foot">
 
           <div class="price">
-            ${p.price.toLocaleString('ar-SA')}
-            <small>ر.س</small>
+          <small>س.ر</small>
+            ${p.price.toLocaleString('en-US')}
           </div>
+
+<div class="card-actions">
 
           <button
           class="btn btn-primary"
@@ -123,6 +125,7 @@ function renderProducts(){
           تفاصيل
 
           </button>
+          </div>
 
         </div>
 
