@@ -4,7 +4,7 @@ const WHATSAPP_NUMBER = "967772046780"; // غيّر الرقم هنا
 const CATEGORIES=[
   {id:"all",label:"الكل"},
   {id:"supermarket",label:"رفوف جدارية"},
-  {id:"storage",label:"التخزين"},
+  {id:"storage",label:"رفوف وسطية"},
   {id:"heavy",label:"المستودعات الثقيلة"},
   {id:"chrome",label:"الكرومات"},
   {id:"other",label:"أخرى"},
