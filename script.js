@@ -3,7 +3,7 @@ const WHATSAPP_NUMBER = "967772046780"; // غيّر الرقم هنا
 
 const CATEGORIES=[
   {id:"all",label:"الكل"},
-  {id:"supermarket",label:"السوبر ماركت"},
+  {id:"supermarket",label:"رفوف جدارية"},
   {id:"storage",label:"التخزين"},
   {id:"heavy",label:"المستودعات الثقيلة"},
   {id:"chrome",label:"الكرومات"},
@@ -35,10 +35,10 @@ const I = {
 };
 
 const PRODUCTS=[
-  {id:"heavy-rack-1",name:"رف أبيض ( جداري - أملس )",gallery:["images/1778642902980.png","images/1778642958528.png","images/1778643002638.png"],shortDescription:"رف معدني ثقيل بحمولة 300 كجم لكل رف",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:850,image:"images/1778546229148.png",images:["images/1778546322976.png","images/1778546229148.png","images/1778546383705.png"],category:"supermarket",specs:{height:"200 سم",width:"200 سم",depth:"60 سم",material:"حديد مدلفن على البارد",capacity:"300 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مستودعات / مخازن",availability:"متوفر"}},
-  {id:"heavy-rack-2",name:"رف أسود ( جداري - أملس )",gallery:["images/1778643241307.png","images/1778643180414.png","images/1778643294641.png"],shortDescription:"رف بأربعة مستويات بتصميم متين",description:"رفوف تجمع بين الفخامة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تبرز جمال المنتجات المعروضة.",price:720,image:"images/1778546322976.png",images:["images/1778546229148.png","images/1778546322976.png","images/1778546383705.png"],category:"supermarket",specs:{height:"200 سم",width:"180 سم",depth:"60 سم",material:"حديد بطلاء كهروستاتيكي",capacity:"250 كجم لكل رف",colors:"أزرق + برتقالي",usage:"مخازن وورش",availability:"متوفر"}},
-  {id:"heavy-rack-3",name:"رف رصاصي ( جداري - أملس )",shortDescription:"رف عريض بحمولة عالية وثبات ممتاز",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري، تُعد الحل الأمثل للصيدليات ومحلات التجميل  والمحلات التجارية.",price:950,image:"images/1778546383705.png",images:["images/1778546229148.png","images/1778546383705.png","images/1778546322976.png"],category:"supermarket",specs:{height:"220 سم",width:"240 سم",depth:"60 سم",material:"حديد سميك",capacity:"350 كجم لكل رف",colors:"أزرق داكن + برتقالي",usage:"مستودعات كبيرة",availability:"متوفر"}},
-  {id:"supermarket-1",name:"رف سوبر ماركت بنهايات دائرية",shortDescription:"رف عرض احترافي بشريط أزرق أنيق",description:"رف سوبر ماركت بتصميم عصري ونهايات دائرية لعرض المنتجات بشكل جذاب وآمن.",price:1100,image:"images/1778643515823.png",images:["images/1778644689987.png","images/1778643515823.png","images/1778644945066.png"],category:"supermarket",specs:{height:"180 سم",width:"300 سم",depth:"50 سم",material:"صاج مدلفن",capacity:"150 كجم لكل رف",colors:"أبيض + أزرق",usage:"سوبر ماركت / بقالات",availability:"متوفر"}},
+  {id:"heavy-rack-1",name:"رف جداري أبيض - ظهر أملس",gallery:["images/1778642902980.png","images/1778642958528.png","images/1778643002638.png"],shortDescription:"رف معدني ثقيل بحمولة 300 كجم لكل رف",description:"رفوف تجمع بين الأناقة في العرض والقوة في التحمل بفضل الظهر الأملس والتصميم العصري.",price:850,image:"images/1778546229148.png",images:["images/1778546322976.png","images/1778546229148.png","images/1778546383705.png"],category:"supermarket",specs:{height:"225 سم",width:"100 سم",depth:"40 سم /  35 سم",material:"45 سم /  40 سم",capacity:"-----",colors:"أبيض / أسود / رصاصي",usage:"الصيدليات / السوبر ماركت / المتاجر",availability:"متوفر"}},
+  {id:"heavy-rack-2",name:"رف جداري أسود - ظهر أملس",gallery:["images/1778643241307.png","images/1778643180414.png","images/1778643294641.png"],shortDescription:"رف بأربعة مستويات بتصميم متين",description:"يتميز بخلفية ملساء انسيابية، تمنح متجرك مظهراً عصرياً.",price:720,image:"images/1778546322976.png",images:["images/1778546229148.png","images/1778546322976.png","images/1778546383705.png"],category:"supermarket",specs:{height:"225 سم",width:"100 سم",depth:"40 سم /  35 سم",material:"45 سم /  40 سم",capacity:"-----",colors:"أسود / أبيض / رصاصي",usage:"الصيدليات / السوبر ماركت / المتاجر / محلات التجميل",availability:"متوفر"}},
+  {id:"heavy-rack-3",name:"رف جداري رصاصي - ظهر أملس",shortDescription:"رف عريض بحمولة عالية وثبات ممتاز",description:"توازن مثالي بين الحداثة والقوة، رفوف رمادية صُممت لتمنح عرضك طابعاً احترافياً لايضاهى.",price:950,image:"images/1778546383705.png",images:["images/1778546229148.png","images/1778546383705.png","images/1778546322976.png"],category:"supermarket",specs:{height:"225 سم",width:"100 سم",depth:"40 سم /  35 سم",material:"45 سم /  40 سم",capacity:"-----",colors:"رصاصي / أسود / أبيض",usage:"معارض التكنولوجيا والكهربائيات / المتاجر / المخازن / المحلات",availability:"متوفر"}},
+  {id:"supermarket-1",name:"رف جداري أبيض - ظهر مخرم",shortDescription:"رف عرض احترافي بشريط أزرق أنيق",description:"رف جداري مخرم، رفيقك الأمثل لتنظيم يتجاوز التوقعات.",price:1100,image:"images/1778643515823.png",images:["images/1778644689987.png","images/1778643515823.png","images/1778644945066.png"],category:"supermarket",specs:{height:"225 سم",width:"100 سم",depth:"40 سم /  35 سم",material:"45 سم /  40 سم",capacity:"-----",colors:"أبيض / أسود / رصاصي",usage:"سوبر ماركت / صيدليات / محلات جوالات وإكسسوارات وأدوات الرياض",availability:"متوفر"}},
   {id:"supermarket-2",name:"رف سوبر ماركت زاوية أحمر",shortDescription:"نظام رفوف ركني للسوبر ماركت",description:"نظام رفوف ركني متكامل مع شريط أحمر لتمييز المنتجات وزيادة جاذبية العرض.",price:1250,image:"images/1778644689987.png",images:["images/1778643515823.png","images/1778644689987.png","images/1778644945066.png"],category:"supermarket",specs:{height:"200 سم",width:"250 سم",depth:"45 سم",material:"صاج مطلي كهروستاتيكي",capacity:"120 كجم لكل رف",colors:"أبيض + أحمر",usage:"سوبر ماركت",availability:"متوفر"}},
   {id:"supermarket-3",name:"رفوف سوبر ماركت سوداء",shortDescription:"نظام جوندولا أسود بشريط أخضر",description:"نظام رفوف جوندولا متكامل بتصميم أنيق أسود مع إضاءة شريطية خضراء.",price:1450,image:"images/1778644945066.png",images:["images/1778644689987.png","images/1778644945066.png","images/1778643515823.png"],category:"supermarket",specs:{height:"210 سم",width:"120 سم",depth:"50 سم",material:"صاج مطلي",capacity:"150 كجم لكل رف",colors:"أسود + أخضر",usage:"سوبر ماركت / محلات",availability:"متوفر"}},
   {id:"light-shelf-1",name:"رف تخزين خفيف فضي",shortDescription:"رف منزلي خفيف ومرن",description:"رف تخزين خفيف بلون فضي عملي مناسب للمنازل والمكاتب والمحلات.",price:380,image:"images/1778803321606.png",images:["images/1778803581205.png","images/1778803321606.png","images/1778804049805.png"], category:"storage",specs:{height:"180 سم",width:"150 سم",depth:"50 سم",material:"صاج خفيف",capacity:"80 كجم لكل رف",colors:"فضي",usage:"منازل / مكاتب",availability:"متوفر"}},
@@ -244,8 +244,8 @@ function openModal(id){
     const specs = [
         ["الارتفاع", p.specs.height],
         ["العرض", p.specs.width],
-        ["العمق", p.specs.depth],
-        ["الخامة", p.specs.material],
+        ["عمق الرفوف", p.specs.depth],
+        ["عمق القاعدة", p.specs.material],
         ["الألوان", p.specs.colors],
         ["الحمولة", p.specs.capacity],
         ["الاستخدام", p.specs.usage],
@@ -264,38 +264,38 @@ function openModal(id){
 
   <button class="slider-btn left"
   onclick="changeSlide(-1)">
-  ❮
+  ❯
   </button>
-
+  
   ` : ""}
-
+  
   <div class="slider-images">
-
-    ${!singleImage ? `
-
+  
+  ${!singleImage ? `
+    
     <img class="side-img"
     src="${currentImages[0]}">
-
+    
     ` : ""}
-
+    
     <img class="main-img"
     id="mainSliderImage"
     src="${currentImages[1] || currentImages[0]}">
-
+    
     ${!singleImage ? `
-
-    <img class="side-img"
-    src="${currentImages[2] || currentImages[0]}">
-
-    ` : ""}
-
-  </div>
-
-  ${!singleImage ? `
-
-  <button class="slider-btn right"
-  onclick="changeSlide(1)">
-  ❯
+      
+      <img class="side-img"
+      src="${currentImages[2] || currentImages[0]}">
+      
+      ` : ""}
+      
+      </div>
+      
+      ${!singleImage ? `
+        
+        <button class="slider-btn right"
+        onclick="changeSlide(1)">
+        ❮
   </button>
 
   ` : ""}

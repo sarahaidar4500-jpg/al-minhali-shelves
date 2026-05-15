@@ -181,7 +181,12 @@ display:flex;
 width:45px;
 height:45px;
 
-background:#FF7A00;
+background:linear-gradient(
+180deg,
+#ffb14a 0%,
+#ff8800 45%,
+#ff6a00 100%
+);
 
 color:#fff;
 
