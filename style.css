@@ -1215,8 +1215,6 @@ padding:0;
 
 overflow:hidden;
 
-padding-inline: 40px;
-
 width: 100%;
 
 position:relative;
@@ -1225,10 +1223,6 @@ margin-top:40px;
 }
 
 .best-track{
-
-    padding-block:15px;
-
-    padding-bottom: 30px;
 
 display:flex;
 
@@ -1258,8 +1252,6 @@ box-shadow:0 10px 30px rgba(0,0,0,.08);
 flex-shrink:0;
 
 transition:transform .5s ease, box-shadow .5s ease;
-
-display: flex;
 
 flex-direction: column;
 }
@@ -1307,6 +1299,7 @@ font-size:24px;
 font-weight:800;
 
 color:#0d47a1;
+display: flex;
 }
 
 .best-badge{
@@ -1328,6 +1321,8 @@ border-radius:999px;
 font-size:13px;
 
 font-weight:bold;
+
+display: flex;
 
 box-shadow:0 5px 15px rgba(255,122,0,.3);
 }

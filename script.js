@@ -11,9 +11,9 @@ const CATEGORIES=[
   {id:"supermarket",label:"رفوف جدارية"},
   {id:"storage",label:"رفوف وسطية"},
   {id:"heavy",label:"المستودعات الثقيلة"},
+  {id:"otherS",label:"ملحقات وأنظمة التركيب"},
   {id:"chrome",label:"الكرومات"},
   {id:"chromes",label:"الخانات"},
-  {id:"otherS",label:"ملحقات وأنظمة التركيب"},
   {id:"other",label:"أخرى"},
 ];
 
