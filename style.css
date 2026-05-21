@@ -1231,6 +1231,8 @@ gap:20px;
 transition:transform .8s ease;
 
 will-change: transform;
+
+padding-bottom: 30px;
 }
 
 .best-card{
@@ -1377,57 +1379,5 @@ box-shadow:0 5px 15px rgba(255,122,0,.3);
     box-shadow:var(--shadow);
 }
 
-}
-
-/*اسهم الاكثر مبيعاً*/
-
-.best-nav{
-
-position:absolute;
-
-top:50%;
-
-transform:translateY(-50%);
-
-width:50px;
-
-height:50px;
-
-border:none;
-
-border-radius:50%;
-
-background:white;
-
-box-shadow:0 5px 20px rgba(0,0,0,.15);
-
-cursor:pointer;
-
-z-index:30;
-
-font-size:24px;
-
-font-weight:bold;
-
-transition:.3s;
-}
-
-.best-nav:hover{
-
-transform:translateY(-50%) scale(1.1);
-
-background:#FF7A00;
-
-color:#fff;
-}
-
-.best-nav.prev{
-
-left:15px;
-}
-
-.best-nav.next{
-
-right:15px;
 }
 
