@@ -423,7 +423,6 @@ display:flex;
 align-items:center;
 justify-content:center;
 
-width:100%;
 
 gap: 10px;
 
@@ -697,35 +696,7 @@ opacity:0;
 }
 }
 
-/* */
-.features{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-    padding:80px 8%;
-}
 
-.feature-box{
-    background:#fff;
-    padding:35px;
-    border-radius:20px;
-    box-shadow:0 8px 30px rgba(0,0,0,0.08);
-    transition:0.3s;
-}
-
-.feature-box:hover{
-    transform:translateY(-8px);
-}
-
-.feature-box h3{
-    margin-bottom:15px;
-    color:#0d47a1;
-}
-
-.feature-box p{
-    color:#666;
-    line-height:1.8;
-}
 
 /* Filters */
 .filters{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem;margin-bottom:2.5rem}
@@ -1205,3 +1176,191 @@ opacity:0;
 
 
 body{overflow-x: hidden;}
+
+
+
+
+
+
+/* ازرار كرت المنتج بنفس الحجم*/
+.card-actions{
+
+display:flex;
+
+gap:10px;
+}
+
+.card-actions button{
+
+flex:1;
+
+height:48px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:0;
+}
+
+
+/* =======================
+   BEST SELLERS
+======================= */
+
+
+.best-slider{
+
+overflow:hidden;
+
+position:relative;
+
+margin-top:40px;
+}
+
+.best-track{
+
+display:flex;
+
+gap:20px;
+
+transition:transform .8s ease;
+}
+
+.best-card{
+
+min-width:350px;
+
+background:#fff;
+
+border-radius:28px;
+
+padding:20px;
+
+position:relative;
+
+overflow:hidden;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+flex-shrink:0;
+
+transition:.35s;
+}
+
+.best-card:hover{
+
+transform:translateY(-8px);
+}
+
+.best-card img{
+
+width:100%;
+
+height:260px;
+
+object-fit:contain;
+
+margin-bottom:15px;
+}
+
+.best-card h3{
+
+font-size:22px;
+
+margin-bottom:10px;
+
+color:#0f1e3d;
+}
+
+.best-card p{
+
+color:#777;
+
+line-height:1.8;
+
+margin-bottom:15px;
+}
+
+.best-price{
+
+font-size:24px;
+
+font-weight:800;
+
+color:#0d47a1;
+}
+
+.best-badge{
+
+position:absolute;
+
+top:15px;
+
+right:15px;
+
+background:#FF7A00;
+
+color:white;
+
+padding:8px 14px;
+
+border-radius:999px;
+
+font-size:13px;
+
+font-weight:bold;
+
+box-shadow:0 5px 15px rgba(255,122,0,.3);
+}
+.best-card .card-foot{
+  display:flex;
+  flex-direction:row;
+  gap:10px;
+  margin-top:15px;
+}
+
+.best-card .card-foot button{
+  flex:1;
+  height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 0;
+}
+
+
+/* موبايل */
+
+@media(max-width:768px){
+
+.best-card{
+
+    min-width:300px;
+
+    background:#fff;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius);
+
+    overflow:hidden;
+
+    transition:.3s;
+
+    flex-shrink:0;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.best-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:var(--shadow);
+}
+
+}
+
