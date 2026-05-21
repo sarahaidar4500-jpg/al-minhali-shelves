@@ -539,31 +539,130 @@ document.querySelector(".menu-icon")
 
 });
 
-const bestTrack = document.getElementById("bestTrack");
 
-let currentSlide = 0;
 
-function moveBestSlider(){
+/* =========================
+   سلايدر الاكثر مبيعاً
+========================= */
 
-const cards = document.querySelectorAll(".best-card");
+const track =
+document.getElementById("bestTrack");
 
-const cardWidth = cards[0].offsetWidth + 20;
+if(track){
 
-currentSlide++;
+const cards =
+document.querySelectorAll(".best-card");
 
-if(currentSlide >= cards.length){
+const nextBtn =
+document.querySelector(".best-next");
 
-currentSlide = 0;
+const prevBtn =
+document.querySelector(".best-prev");
+
+let currentIndex = 0;
+
+const gap = 20;
+
+/* عرض الكرت */
+function getCardWidth(){
+
+return cards[0].offsetWidth + gap;
 }
 
-bestTrack.style.transform =
-`translateX(${currentSlide * cardWidth}px)`;
+/* تحديث الحركة */
+function updateSlider(){
 
+track.style.transform =
+`translateX(${currentIndex * getCardWidth()}px)`;
 }
 
-setInterval(moveBestSlider,7000);
+/* التالي */
+function nextSlide(){
 
+currentIndex++;
 
+if(currentIndex >= cards.length){
+
+currentIndex = 0;
+}
+
+updateSlider();
+}
+
+/* السابق */
+function prevSlide(){
+
+currentIndex--;
+
+if(currentIndex < 0){
+
+currentIndex = cards.length - 1;
+}
+
+updateSlider();
+}
+
+/* الاسهم */
+if(nextBtn){
+
+nextBtn.addEventListener(
+"click",
+nextSlide
+);
+}
+
+if(prevBtn){
+
+prevBtn.addEventListener(
+"click",
+prevSlide
+);
+}
+
+/* الحركة التلقائية */
+setInterval(()=>{
+
+nextSlide();
+
+},7000);
+
+/* =====================
+   السحب
+===================== */
+
+let startX = 0;
+
+track.addEventListener(
+"touchstart",
+e=>{
+
+startX =
+e.touches[0].clientX;
+}
+);
+
+track.addEventListener(
+"touchend",
+e=>{
+
+let endX =
+e.changedTouches[0].clientX;
+
+let diff = startX - endX;
+
+if(diff > 50){
+
+  prevSlide();
+}
+
+else if(diff < -50){
+  
+  nextSlide();
+}
+}
+);
+
+}
 
 // السنة
 document.getElementById("year").textContent = new Date().getFullYear();
