@@ -1215,6 +1215,8 @@ padding:0;
 
 overflow:hidden;
 
+width: 100%;
+
 position:relative;
 
 margin-top:40px;
@@ -1227,6 +1229,8 @@ display:flex;
 gap:20px;
 
 transition:transform .8s ease;
+
+will-change: transform;
 }
 
 .best-card{
@@ -1338,7 +1342,11 @@ box-shadow:0 5px 15px rgba(255,122,0,.3);
 
 .best-card{
 
-    min-width:300px;
+    width: 85vw;
+
+    min-width:85vw;
+
+    max-width: 85vw;
 
     background:#fff;
 
