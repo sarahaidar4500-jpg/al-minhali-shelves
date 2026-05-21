@@ -1215,6 +1215,10 @@ padding:0;
 
 overflow:hidden;
 
+overflow-y: visible;
+
+padding-inline: 40px;
+
 width: 100%;
 
 position:relative;
@@ -1223,6 +1227,8 @@ margin-top:40px;
 }
 
 .best-track{
+
+   padding:30px 10px;
 
 display:flex;
 
@@ -1251,7 +1257,10 @@ box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 flex-shrink:0;
 
-transition:.35s;
+transition:transform .5s ease, box-shadow .5s ease;
+display: flex;
+
+flex-direction: column;
 }
 
 .best-card:hover{
@@ -1286,6 +1295,8 @@ color:#777;
 line-height:1.8;
 
 margin-bottom:15px;
+
+flex-grow: 1;
 }
 
 .best-price{
@@ -1370,5 +1381,57 @@ box-shadow:0 5px 15px rgba(255,122,0,.3);
     box-shadow:var(--shadow);
 }
 
+}
+
+/*اسهم الاكثر مبيعاً*/
+
+.best-nav{
+
+position:absolute;
+
+top:50%;
+
+transform:translateY(-50%);
+
+width:50px;
+
+height:50px;
+
+border:none;
+
+border-radius:50%;
+
+background:white;
+
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+cursor:pointer;
+
+z-index:30;
+
+font-size:24px;
+
+font-weight:bold;
+
+transition:.3s;
+}
+
+.best-nav:hover{
+
+transform:translateY(-50%) scale(1.1);
+
+background:#FF7A00;
+
+color:#fff;
+}
+
+.best-nav.prev{
+
+left:15px;
+}
+
+.best-nav.next{
+
+right:15px;
 }
 

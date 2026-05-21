@@ -563,6 +563,28 @@ bestTrack.style.transform =
 
 setInterval(moveBestSlider,7000);
 
+//اسهم الاكثر مبيعاً
+
+
+
+function moveBest(direction){
+
+currentIndex += direction;
+
+if(currentIndex < 0){
+
+currentIndex = totalCards - 1;
+}
+
+if(currentIndex >= totalCards){
+
+currentIndex = 0;
+}
+
+track.style.transform =
+`translateX(${currentIndex * cardWidth}px)`;
+}
+
 // السنة
 document.getElementById("year").textContent = new Date().getFullYear();
 
